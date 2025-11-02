@@ -37,7 +37,7 @@ async function downloadEbookPDF() {
                 format: 'a4', 
                 orientation: 'portrait'
             },
-            pagebreak: { mode: 'avoid-all' }
+            pagebreak: { mode: ['avoid-all', 'css'] }
         };
 
         // Gerar PDF
@@ -75,7 +75,7 @@ function createPDFContent() {
 
     content.innerHTML = `
         <!-- CAPA -->
-        <div style="text-align: center; padding: 80px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; min-height: 100vh;">
+        <div style="text-align: center; padding: 80px 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; min-height: 100vh; page-break-after: always;">
             <img src="assets/foto-marcio-gil.jpg" alt="Márcio Gil" style="width: 160px; height: 160px; border-radius: 50%; border: 5px solid white; object-fit: cover; margin-bottom: 30px;">
             
             <div style="font-size: 60px; margin-bottom: 20px;">🚀</div>
@@ -101,7 +101,7 @@ function createPDFContent() {
         </div>
 
         <!-- PÁGINA 1: O QUE É UM BOOTCAMP -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 50px;">🎓</div>
                 <h2 style="color: #8b5cf6; font-size: 28px; margin: 15px 0;">O Que É um Bootcamp?</h2>
@@ -173,7 +173,7 @@ function createPDFContent() {
         </div>
 
         <!-- PÁGINA 2: A REVOLUÇÃO DA EDUCAÇÃO TECH -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 50px;">🚀</div>
                 <h2 style="color: #8b5cf6; font-size: 28px; margin: 15px 0;">A Revolução da Educação Tech</h2>
@@ -207,7 +207,7 @@ function createPDFContent() {
         </div>
 
         <!-- PÁGINA 3: OPORTUNIDADES REAIS -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 64px; margin-bottom: 15px;">🚀</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
@@ -257,7 +257,7 @@ function createPDFContent() {
         </div>
 
         <!-- Página 3: Oportunidades Reais de Carreira -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 64px; margin-bottom: 15px;">💼</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
@@ -306,7 +306,7 @@ function createPDFContent() {
         </div>
 
         <!-- Página 4: Como Funciona o Aprendizado Imersivo -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 64px; margin-bottom: 15px;">🎯</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
@@ -356,7 +356,7 @@ function createPDFContent() {
         </div>
 
         <!-- Página 5: As Trilhas da Tecnologia -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 64px; margin-bottom: 15px;">🗺️</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
@@ -397,7 +397,7 @@ function createPDFContent() {
         </div>
 
         <!-- Página 6: O Valor das Soft Skills -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 64px; margin-bottom: 15px;">🤝</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
@@ -432,7 +432,7 @@ function createPDFContent() {
         </div>
 
         <!-- Página 7: Como Se Destacar nos Bootcamps -->
-        <div style="page-break-before: always; padding: 40px 30px;">
+        <div style="padding: 40px 30px;">
             <div style="text-align: center; margin-bottom: 30px;">
                 <div style="font-size: 64px; margin-bottom: 15px;">⭐</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
@@ -1141,4 +1141,5 @@ function hidePDFLoading() {
         loading.remove();
     }
 }
+
 
