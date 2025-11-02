@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado! | Trilhas da Transformação Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .thank-you-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--spacing-lg) 0;
+            background: var(--dark-bg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .thank-you-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.2) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .thank-you-container {
+            position: relative;
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+            background: var(--dark-card);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            box-shadow: var(--shadow-xl), 0 0 40px rgba(139, 92, 246, 0.1);
+        }
+
+        .success-icon {
+            font-size: 5rem;
+            margin-bottom: var(--spacing-md);
+            animation: scaleIn 0.5s ease-out;
+        }
+
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .thank-you-title {
+            font-size: var(--font-size-4xl);
+            font-weight: 800;
+            margin-bottom: var(--spacing-sm);
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .thank-you-name {
+            font-size: var(--font-size-2xl);
+            color: var(--primary-light);
+            margin-bottom: var(--spacing-md);
+            font-weight: 600;
+        }
+
+        .thank-you-message {
+            font-size: var(--font-size-lg);
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .download-box {
+            background: var(--gradient-card);
+            border: 1px solid var(--primary-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .download-box h3 {
+            font-size: var(--font-size-xl);
+            margin-bottom: var(--spacing-sm);
+            color: var(--text-primary);
+        }
+
+        .download-box p {
+            color: var(--text-muted);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .next-steps {
+            background: rgba(6, 182, 212, 0.1);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+            text-align: left;
+        }
+
+        .next-steps h3 {
+            font-size: var(--font-size-xl);
+            margin-bottom: var(--spacing-sm);
+            color: var(--secondary-color);
+        }
+
+        .next-steps ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-sm);
+        }
+
+        .next-steps li {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--spacing-xs);
+            color: var(--text-secondary);
+        }
+
+        .next-steps li::before {
+            content: '✓';
+            color: var(--success);
+            font-weight: bold;
+            font-size: var(--font-size-lg);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background: var(--primary-color);
+            position: absolute;
+            animation: confetti-fall 3s linear;
+        }
+
+        @keyframes confetti-fall {
+            0% {
+                transform: translateY(-100vh) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        .social-share {
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid rgba(139, 92, 246, 0.1);
+        }
+
+        .social-share h3 {
+            font-size: var(--font-size-lg);
+            margin-bottom: var(--spacing-sm);
+            color: var(--text-secondary);
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+        }
+
+        .share-btn {
+            padding: var(--spacing-xs) var(--spacing-md);
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-sm);
+            font-weight: 600;
+            transition: all var(--transition-base);
+        }
+
+        .share-btn.twitter {
+            background: #1DA1F2;
+            color: white;
+        }
+
+        .share-btn.linkedin {
+            background: #0077B5;
+            color: white;
+        }
+
+        .share-btn.whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
+        .share-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+    </style>
+</head>
+<body>
+    <section class="thank-you-section">
+        <div class="container">
+            <div class="thank-you-container">
+                <div class="success-icon">🎉</div>
+                
+                <h1 class="thank-you-title">Parabéns!</h1>
+                <p class="thank-you-name" id="userName">Bem-vindo à transformação tech!</p>
+                
+                <p class="thank-you-message">
+                    Você deu o primeiro passo para transformar sua carreira. O e-book <strong>"Trilhas da Transformação Tech"</strong> já está disponível para você!
+                </p>
+
+                <div class="download-box">
+                    <h3>� Acesse seu E-book</h3>
+                    <p>Role a página inicial para explorar todas as 6 trilhas com mais de 12 bootcamps selecionados especialmente para você!</p>
+                    <a href="index.html#trilhas" class="btn btn-primary">
+                        <span>�</span> Ver Todas as Trilhas
+                    </a>
+                </div>
+
+                <div class="next-steps">
+                    <h3>🚀 Próximos Passos</h3>
+                    <ul>
+                        <li>✅ Explore as 6 trilhas disponíveis na página inicial</li>
+                        <li>✅ Escolha os bootcamps que mais combinam com seu perfil</li>
+                        <li>✅ Clique nos links dos bootcamps (já incluem código de indicação)</li>
+                        <li>✅ Inscreva-se gratuitamente e comece a estudar</li>
+                        <li>✅ Conecte-se com a comunidade DIO e compartilhe sua evolução</li>
+                    </ul>
+                </div>
+
+                <div class="action-buttons">
+                    <a href="index.html" class="btn btn-secondary">
+                        ← Voltar ao Início
+                    </a>
+                    <a href="https://www.dio.me" target="_blank" class="btn btn-primary">
+                        Ir para DIO →
+                    </a>
+                </div>
+
+                <div class="social-share">
+                    <h3>Compartilhe sua jornada! 💜</h3>
+                    <div class="share-buttons">
+                        <a href="https://twitter.com/intent/tweet?text=Acabei%20de%20baixar%20o%20e-book%20Trilhas%20da%20Transforma%C3%A7%C3%A3o%20Tech%20e%20estou%20pronto%20para%20come%C3%A7ar%20minha%20jornada%20na%20tecnologia!%20%F0%9F%9A%80&url=" target="_blank" class="btn share-btn twitter">
+                            Twitter
+                        </a>
+                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=" target="_blank" class="btn share-btn linkedin">
+                            LinkedIn
+                        </a>
+                        <a href="https://api.whatsapp.com/send?text=Acabei%20de%20baixar%20o%20e-book%20Trilhas%20da%20Transforma%C3%A7%A3o%20Tech!%20%F0%9F%9A%80" target="_blank" class="btn share-btn whatsapp">
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Get user data from localStorage
+        const downloadData = JSON.parse(localStorage.getItem('downloadData'));
+        
+        if (downloadData && downloadData.name) {
+            const userName = document.getElementById('userName');
+            userName.textContent = `Obrigado, ${downloadData.name.split(' ')[0]}!`;
+        }
+
+        // Create confetti effect
+        function createConfetti() {
+            const colors = ['#8b5cf6', '#06b6d4', '#f59e0b', '#10b981', '#ef4444'];
+            const confettiCount = 50;
+            
+            for (let i = 0; i < confettiCount; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.className = 'confetti';
+                    confetti.style.left = Math.random() * 100 + '%';
+                    confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.animationDelay = Math.random() * 0.5 + 's';
+                    confetti.style.animationDuration = (Math.random() * 2 + 2) + 's';
+                    document.querySelector('.thank-you-section').appendChild(confetti);
+                    
+                    setTimeout(() => confetti.remove(), 3000);
+                }, i * 30);
+            }
+        }
+
+        // Trigger confetti on page load
+        window.addEventListener('load', () => {
+            createConfetti();
+        });
+
+        // Track download click
+        document.querySelector('.download-box .btn-primary').addEventListener('click', () => {
+            console.log('E-book download initiated');
+            // Add your analytics tracking here
+        });
+    </script>
+</body>
+</html>

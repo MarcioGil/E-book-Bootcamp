@@ -1,0 +1,358 @@
+/* ========================================
+   PAINEL DE ACESSIBILIDADE
+======================================== */
+.accessibility-panel {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.accessibility-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 8px 0 0 8px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.accessibility-toggle:hover {
+    background: var(--primary-dark);
+    transform: translateX(-5px);
+}
+
+.accessibility-toggle:focus {
+    outline: 3px solid #f59e0b;
+    outline-offset: 2px;
+}
+
+.accessibility-menu {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 350px;
+    max-height: 90vh;
+    background: var(--dark-card);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-md);
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.5);
+    transform: translateX(400px);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.accessibility-menu.open {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.accessibility-menu h3 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-md);
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+.accessibility-menu h4 {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary-light);
+}
+
+.accessibility-section {
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.accessibility-section:last-of-type {
+    border-bottom: none;
+}
+
+.accessibility-btn {
+    width: 100%;
+    padding: var(--spacing-sm);
+    background: rgba(139, 92, 246, 0.1);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: var(--spacing-xs);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.accessibility-btn:hover:not(:disabled) {
+    background: rgba(139, 92, 246, 0.2);
+    border-color: var(--primary-color);
+    transform: translateX(-3px);
+}
+
+.accessibility-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.accessibility-btn:focus {
+    outline: 2px solid var(--primary-light);
+    outline-offset: 2px;
+}
+
+.btn-icon {
+    font-size: var(--font-size-lg);
+}
+
+.btn-group {
+    display: flex;
+    gap: var(--spacing-xs);
+}
+
+.btn-group .accessibility-btn {
+    flex: 1;
+    justify-content: center;
+}
+
+.voice-controls {
+    margin-top: var(--spacing-sm);
+}
+
+.voice-controls label {
+    display: block;
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xs);
+    margin-top: var(--spacing-sm);
+}
+
+.voice-controls input[type="range"] {
+    width: 100%;
+    height: 6px;
+    background: rgba(139, 92, 246, 0.2);
+    border-radius: var(--radius-full);
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.voice-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.voice-controls input[type="range"]::-webkit-slider-thumb:hover {
+    background: var(--primary-light);
+    transform: scale(1.2);
+}
+
+.voice-controls input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.font-size-display {
+    display: block;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    margin-top: var(--spacing-xs);
+}
+
+.shortcuts-list {
+    list-style: none;
+    padding: 0;
+    font-size: var(--font-size-sm);
+}
+
+.shortcuts-list li {
+    padding: var(--spacing-xs) 0;
+    color: var(--text-secondary);
+}
+
+.shortcuts-list kbd {
+    background: rgba(139, 92, 246, 0.2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: var(--font-size-xs);
+    color: var(--primary-light);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.reset-btn {
+    background: rgba(239, 68, 68, 0.1) !important;
+    border-color: rgba(239, 68, 68, 0.3) !important;
+    color: #f87171 !important;
+    margin-top: var(--spacing-sm);
+}
+
+.reset-btn:hover {
+    background: rgba(239, 68, 68, 0.2) !important;
+    border-color: #ef4444 !important;
+}
+
+/* ========================================
+   ALTO CONTRASTE
+======================================== */
+body.high-contrast {
+    --dark-bg: #000000;
+    --dark-card: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #ffffff;
+    --primary-color: #ffff00;
+    --primary-light: #ffff66;
+}
+
+body.high-contrast .btn-primary {
+    background: #ffff00;
+    color: #000000;
+}
+
+body.high-contrast a {
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+/* ========================================
+   ESCALA DE CINZA
+======================================== */
+body.grayscale {
+    filter: grayscale(100%);
+}
+
+/* ========================================
+   DESTAQUE DE FOCO
+======================================== */
+body.focus-highlight a,
+body.focus-highlight button {
+    position: relative;
+}
+
+body.focus-highlight a:focus::after,
+body.focus-highlight button:focus::after {
+    content: '👆';
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: var(--font-size-xl);
+    animation: pointPulse 1s infinite;
+}
+
+@keyframes pointPulse {
+    0%, 100% { transform: translateY(-50%) scale(1); }
+    50% { transform: translateY(-50%) scale(1.2); }
+}
+
+/* ========================================
+   SCREEN READER ONLY
+======================================== */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* ========================================
+   SCROLLBAR DO MENU
+======================================== */
+.accessibility-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.accessibility-menu::-webkit-scrollbar-track {
+    background: rgba(139, 92, 246, 0.1);
+    border-radius: var(--radius-full);
+}
+
+.accessibility-menu::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: var(--radius-full);
+}
+
+.accessibility-menu::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-light);
+}
+
+/* ========================================
+   ANIMAÇÕES DE LEITURA
+======================================== */
+@keyframes reading-pulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 20px 10px rgba(139, 92, 246, 0);
+    }
+}
+
+.reading-active {
+    animation: reading-pulse 2s infinite;
+}
+
+/* ========================================
+   RESPONSIVIDADE
+======================================== */
+@media (max-width: 768px) {
+    .accessibility-menu {
+        width: 300px;
+        max-height: 80vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .accessibility-menu {
+        width: calc(100vw - 70px);
+        right: 60px;
+    }
+
+    .accessibility-toggle {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* ========================================
+   MODO DE IMPRESSÃO
+======================================== */
+@media print {
+    .accessibility-panel {
+        display: none !important;
+    }
+}
