@@ -1491,12 +1491,116 @@ a {
     box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
 }
 
+/* Requisitos para Portfólio */
+.portfolio-requirements {
+    background: var(--dark-card);
+    border: 2px solid var(--dark-lighter);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    margin: var(--spacing-xl) auto;
+    max-width: 1000px;
+}
+
+.requirements-title {
+    font-size: var(--font-size-2xl);
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.requirements-subtitle {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.requirement-item {
+    background: var(--dark-bg);
+    border: 1px solid var(--dark-lighter);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.requirement-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.requirement-item h4 {
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.requirement-item p {
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+}
+
+.requirements-warning {
+    background: rgba(239, 68, 68, 0.1);
+    border: 2px solid rgba(239, 68, 68, 0.3);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    margin: var(--spacing-lg) 0;
+}
+
+.requirements-warning p {
+    color: var(--text-primary);
+    font-size: var(--font-size-base);
+    line-height: 1.8;
+    margin: 0;
+}
+
+.requirements-process {
+    background: var(--dark-bg);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.requirements-process h4 {
+    font-size: var(--font-size-xl);
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.requirements-process ol {
+    list-style-position: inside;
+    color: var(--text-secondary);
+    font-size: var(--font-size-base);
+    line-height: 2;
+    padding-left: 0;
+}
+
+.requirements-process ol li {
+    margin-bottom: 0.75rem;
+}
+
+.requirements-process ol li strong {
+    color: var(--text-primary);
+}
+
 @media (max-width: 768px) {
     .portfolio-iframe {
         height: 400px;
     }
     
     .portfolio-benefits {
+        grid-template-columns: 1fr;
+    }
+    
+    .requirements-grid {
         grid-template-columns: 1fr;
     }
     
