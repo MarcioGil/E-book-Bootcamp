@@ -89,131 +89,322 @@ function createPDFContent() {
             </div>
         </div>
 
-        <!-- Página Motivacional 1: O Poder da Educação -->
+        <!-- Página 1: O que é um Bootcamp? -->
         <div style="page-break-after: always; padding: 40px 20px;">
             <div style="text-align: center; margin-bottom: 30px;">
-                <div style="font-size: 64px; margin-bottom: 15px;">📚</div>
+                <div style="font-size: 64px; margin-bottom: 15px;">🎓</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
-                    O Poder Transformador da Educação
+                    O Que É um Bootcamp?
                 </h2>
             </div>
             
             <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                A educação sempre foi e sempre será a ferramenta mais poderosa para transformar vidas. Mas vivemos em um momento único da história, onde o acesso ao conhecimento de qualidade nunca esteve tão democrático.
+                Um <strong>bootcamp</strong> é um programa intensivo de aprendizado prático, projetado para transformar iniciantes em profissionais qualificados em um curto período de tempo. Diferente de cursos tradicionais que focam apenas na teoria, os bootcamps são 100% orientados à prática e aos desafios reais do mercado.
             </p>
             
             <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                Antigamente, aprender uma nova profissão exigia investimentos altos, deslocamentos diários e muitas vezes a interrupção de outras atividades. Hoje, com plataformas como a DIO, você pode estudar no seu tempo, do seu jeito, e <strong>completamente de graça</strong>.
-            </p>
-
-            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white; margin: 25px 0;">
-                <p style="font-size: 18px; margin: 0; text-align: center; font-weight: bold; line-height: 1.6;">
-                    "A educação é a arma mais poderosa que você pode usar para mudar o mundo."
-                </p>
-                <p style="text-align: center; margin-top: 10px; font-size: 14px; opacity: 0.9;">
-                    — Nelson Mandela
-                </p>
-            </div>
-
-            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                Cada bootcamp que você encontrará neste e-book representa centenas de horas de conteúdo desenvolvido por especialistas, projetos práticos, mentorias e uma comunidade vibrante de estudantes. Tudo isso disponível para você sem custo algum.
-            </p>
-
-            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                O que separa você da carreira dos seus sonhos não é mais dinheiro ou localização geográfica. É apenas <strong>decisão e dedicação</strong>.
-            </p>
-        </div>
-
-        <!-- Página Motivacional 2: Uma Oportunidade Única -->
-        <div style="page-break-after: always; padding: 40px 20px;">
-            <div style="text-align: center; margin-bottom: 30px;">
-                <div style="font-size: 64px; margin-bottom: 15px;">🌟</div>
-                <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
-                    Uma Oportunidade Única na História
-                </h2>
-            </div>
-
-            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                Você está vivendo um momento histórico. Nunca antes na história da humanidade tantas oportunidades de aprendizado de alta qualidade estiveram disponíveis gratuitamente. E mais: nunca o mercado de tecnologia esteve tão aquecido e necessitado de profissionais qualificados.
+                O termo "bootcamp" vem dos campos de treinamento militar, onde soldados passam por preparação intensa e imersiva. Na tecnologia, a ideia é a mesma: <strong>mergulhar de cabeça</strong> em projetos reais, resolver problemas complexos e desenvolver habilidades práticas que o mercado valoriza.
             </p>
 
             <div style="background: #f0fdf4; padding: 20px; border-left: 5px solid #22c55e; margin: 25px 0; border-radius: 5px;">
-                <h3 style="color: #16a34a; margin-top: 0; font-size: 20px;">💡 Pense nisso:</h3>
+                <h3 style="color: #16a34a; margin-top: 0; font-size: 20px;">🎯 O Que Torna um Bootcamp Diferente?</h3>
                 <ul style="margin: 10px 0; padding-left: 25px; line-height: 1.8;">
-                    <li style="margin: 10px 0;">📊 O mercado de tecnologia cresce <strong>3x mais rápido</strong> que outros setores</li>
-                    <li style="margin: 10px 0;">💰 Salários na área tech estão entre os <strong>mais altos do mercado</strong></li>
-                    <li style="margin: 10px 0;">🌍 Você pode trabalhar de <strong>qualquer lugar do mundo</strong></li>
-                    <li style="margin: 10px 0;">🚀 Há <strong>mais vagas abertas</strong> do que profissionais qualificados</li>
-                    <li style="margin: 10px 0;">🎓 Não é necessário diploma universitário para <strong>começar</strong></li>
+                    <li style="margin: 10px 0;"><strong>Aprendizado Baseado em Projetos:</strong> Você não apenas assiste aulas, você constrói aplicações reais do zero</li>
+                    <li style="margin: 10px 0;"><strong>Mentoria de Especialistas:</strong> Profissionais experientes guiam sua jornada e compartilham insights do mercado</li>
+                    <li style="margin: 10px 0;"><strong>Networking Real:</strong> Conecte-se com recrutadores, empresas parceiras e outros estudantes</li>
+                    <li style="margin: 10px 0;"><strong>Certificação Reconhecida:</strong> Receba certificados que empresas respeitam e valorizam</li>
+                    <li style="margin: 10px 0;"><strong>Portfólio Prático:</strong> Termine com projetos reais para mostrar em entrevistas</li>
                 </ul>
             </div>
 
             <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                A DIO, através de parcerias com grandes empresas, oferece bootcamps que preparam você diretamente para o mercado de trabalho. São conteúdos práticos, atualizados e alinhados com o que as empresas realmente procuram.
+                Na <strong>DIO (Digital Innovation One)</strong>, os bootcamps são oferecidos gratuitamente através de parcerias com grandes empresas como Santander, iFood, GFT, Microsoft e outras gigantes do mercado. Essas empresas patrocinam os programas porque buscam talentos qualificados — e você pode ser um deles.
             </p>
 
-            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                Enquanto algumas pessoas pagam milhares de reais em cursos, você tem acesso ao mesmo nível de qualidade — ou até superior — completamente gratuito. Essa é uma janela de oportunidade que não estará aberta para sempre.
-            </p>
-
-            <div style="background: #fef3c7; padding: 20px; border-left: 5px solid #f59e0b; margin: 25px 0; border-radius: 5px;">
-                <p style="margin: 0; font-size: 16px; line-height: 1.8; color: #78350f;">
-                    <strong>⚡ Momento de Agir:</strong> O melhor momento para começar foi há um ano. O segundo melhor momento é agora. Não deixe essa oportunidade passar!
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white; margin: 25px 0;">
+                <p style="font-size: 18px; margin: 0; text-align: center; font-weight: bold; line-height: 1.6;">
+                    "Bootcamps não ensinam você a programar. Eles ensinam você a PENSAR como um programador."
                 </p>
             </div>
         </div>
 
-        <!-- Página Motivacional 3: Sua História Começa Aqui -->
+        <!-- Página 2: A Revolução da Educação Tech -->
         <div style="page-break-after: always; padding: 40px 20px;">
             <div style="text-align: center; margin-bottom: 30px;">
-                <div style="font-size: 64px; margin-bottom: 15px;">🎯</div>
+                <div style="font-size: 64px; margin-bottom: 15px;">🚀</div>
                 <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
-                    Sua História de Sucesso Começa Aqui
+                    A Revolução da Educação em Tecnologia
                 </h2>
             </div>
 
             <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                Cada grande profissional da tecnologia que você admira hoje começou exatamente onde você está agora: no início da jornada, com dúvidas, medos e incertezas. A diferença é que eles deram o primeiro passo.
+                Há 10 anos, se você quisesse entrar na área de tecnologia, precisaria de uma faculdade de 4 anos, investir dezenas de milhares de reais e torcer para conseguir um estágio mal remunerado. <strong>Esse modelo está morto.</strong>
+            </p>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Empresas como Google, Apple e Microsoft não exigem mais diploma universitário para muitas de suas vagas. Elas valorizam <strong>habilidades práticas, portfólio e experiência</strong>. É exatamente isso que os bootcamps oferecem.
             </p>
 
             <div style="background: #ede9fe; padding: 25px; border-radius: 12px; margin: 25px 0;">
-                <h3 style="color: #6d28d9; margin-top: 0; font-size: 20px; text-align: center;">🌱 Os Três Pilares do Sucesso na Tech</h3>
+                <h3 style="color: #6d28d9; margin-top: 0; font-size: 20px; text-align: center;">� Por Que os Bootcamps Funcionam?</h3>
                 
                 <div style="margin: 20px 0;">
-                    <p style="font-size: 16px; margin-bottom: 10px;"><strong style="color: #8b5cf6;">1. Curiosidade Constante</strong></p>
-                    <p style="font-size: 15px; margin: 0 0 15px 20px; line-height: 1.7;">
-                        A tecnologia evolui rapidamente. Os profissionais de sucesso são aqueles que mantêm a curiosidade viva e nunca param de aprender.
+                    <p style="font-size: 15px; margin-bottom: 15px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">⚡ Velocidade:</strong> Aprenda em 3-6 meses o que levaria 2-3 anos em cursos tradicionais
                     </p>
 
-                    <p style="font-size: 16px; margin-bottom: 10px;"><strong style="color: #8b5cf6;">2. Prática Deliberada</strong></p>
-                    <p style="font-size: 15px; margin: 0 0 15px 20px; line-height: 1.7;">
-                        Não basta assistir aulas. É preciso colocar a mão no código, errar, debugar e construir projetos reais. A prática torna permanente.
+                    <p style="font-size: 15px; margin-bottom: 15px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">💼 Empregabilidade:</strong> 73% dos graduados em bootcamps conseguem emprego em até 6 meses
                     </p>
 
-                    <p style="font-size: 16px; margin-bottom: 10px;"><strong style="color: #8b5cf6;">3. Comunidade e Networking</strong></p>
-                    <p style="font-size: 15px; margin: 0 0 0 20px; line-height: 1.7;">
-                        Conecte-se com outros estudantes, participe de fóruns, compartilhe seus projetos. Muitas oportunidades surgem através da rede de contatos.
+                    <p style="font-size: 15px; margin-bottom: 15px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">💰 ROI Incrível:</strong> Com bootcamps gratuitos, seu retorno sobre investimento é infinito
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 0; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">🎯 Foco no Mercado:</strong> Conteúdo atualizado constantemente com as tecnologias mais demandadas
                     </p>
                 </div>
             </div>
 
             <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                Este e-book não é apenas uma lista de cursos. É um <strong>mapa cuidadosamente desenhado</strong> para guiar você da curiosidade inicial até a realização profissional. Cada trilha foi pensada para formar profissionais completos e preparados para o mercado.
+                A pandemia acelerou ainda mais essa revolução. Empresas descobriram que trabalho remoto funciona, e isso abriu portas globais. Você pode trabalhar para empresas internacionais, ganhando em dólar ou euro, sem sair de casa.
             </p>
 
+            <div style="background: #fef3c7; padding: 20px; border-left: 5px solid #f59e0b; margin: 25px 0; border-radius: 5px;">
+                <p style="margin: 0; font-size: 16px; line-height: 1.8; color: #78350f;">
+                    <strong>💡 Fato Real:</strong> Desenvolvedores júnior no Brasil ganham em média R$ 3.500-5.000. Desenvolvedores sênior podem ultrapassar R$ 20.000/mês. E começa com um bootcamp gratuito.
+                </p>
+            </div>
+        </div>
+
+        <!-- Página 3: Oportunidades Reais de Carreira -->
+        <div style="page-break-after: always; padding: 40px 20px;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <div style="font-size: 64px; margin-bottom: 15px;">💼</div>
+                <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
+                    Oportunidades Reais de Carreira
+                </h2>
+            </div>
+
             <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
-                Você não precisa fazer todas as trilhas de uma vez. Escolha uma que ressoe com você, dedique-se a ela e complete os bootcamps com excelência. Os resultados virão naturalmente.
+                Vamos falar de números reais. O mercado de tecnologia no Brasil possui <strong>mais de 530 mil vagas abertas</strong> que não conseguem ser preenchidas por falta de profissionais qualificados. Isso não é exagero — é uma estatística da Brasscom (Associação Brasileira das Empresas de Tecnologia).
+            </p>
+
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 10px; margin: 25px 0;">
+                <h3 style="color: #16a34a; margin-top: 0; font-size: 20px;">� Carreiras em Alta Demanda:</h3>
+                <div style="margin: 15px 0;">
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong>👨‍💻 Desenvolvedor Full-Stack:</strong> Salário médio R$ 6.500 (júnior) | R$ 15.000+ (sênior)
+                    </p>
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong>☁️ Engenheiro Cloud:</strong> Salário médio R$ 8.000 (júnior) | R$ 18.000+ (sênior)
+                    </p>
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong>🤖 Cientista de Dados:</strong> Salário médio R$ 7.000 (júnior) | R$ 20.000+ (sênior)
+                    </p>
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong>🔒 Especialista DevOps:</strong> Salário médio R$ 9.000 (júnior) | R$ 22.000+ (sênior)
+                    </p>
+                    <p style="font-size: 15px; margin-bottom: 0; line-height: 1.7;">
+                        <strong>📱 Desenvolvedor Mobile:</strong> Salário médio R$ 5.500 (júnior) | R$ 14.000+ (sênior)
+                    </p>
+                </div>
+            </div>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Mas não é só sobre dinheiro. A área de tecnologia oferece <strong>qualidade de vida</strong>: trabalho remoto, horários flexíveis, dress code casual, ambiente de inovação e a possibilidade de impactar milhões de pessoas com seu código.
             </p>
 
             <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 12px; color: white; margin: 25px 0;">
                 <p style="font-size: 17px; margin: 0; text-align: center; font-weight: bold; line-height: 1.6;">
-                    Daqui a um ano, você pode estar trabalhando na área dos seus sonhos ou ainda pensando em começar. A escolha é sua.
+                    "Empresas parceiras da DIO recrutam ATIVAMENTE entre os alunos dos bootcamps. Seu próximo emprego pode estar a um bootcamp de distância."
                 </p>
             </div>
 
-            <p style="font-size: 16px; margin-bottom: 0; line-height: 1.8; text-align: center; font-style: italic; color: #64748b;">
-                Acredite no seu potencial. Você é capaz de muito mais do que imagina. 💜
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Muitos bootcamps da DIO oferecem <strong>vagas exclusivas</strong> para alunos que se destacam. Empresas como Santander, iFood, Microsoft, GFT e outras abrem processos seletivos diretos para quem completa os programas com excelência.
             </p>
+        </div>
+
+        <!-- Página 4: Como Funciona o Aprendizado Imersivo -->
+        <div style="page-break-after: always; padding: 40px 20px;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <div style="font-size: 64px; margin-bottom: 15px;">🎯</div>
+                <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
+                    Como Funciona o Aprendizado Imersivo
+                </h2>
+            </div>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Bootcamps não seguem o modelo tradicional de ensino. Eles usam a metodologia <strong>"Learn by Doing"</strong> — aprender fazendo. Desde o primeiro dia, você coloca a mão no código e resolve problemas reais.
+            </p>
+
+            <div style="background: #ede9fe; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                <h3 style="color: #6d28d9; margin-top: 0; font-size: 20px;">🔄 O Ciclo de Aprendizado:</h3>
+                
+                <div style="margin: 20px 0;">
+                    <p style="font-size: 15px; margin-bottom: 15px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">1️⃣ Conceito Teórico:</strong> Aprenda os fundamentos e o "porquê" por trás da tecnologia
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 15px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">2️⃣ Demonstração Prática:</strong> Veja especialistas aplicando o conceito em projetos reais
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 15px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">3️⃣ Prática Guiada:</strong> Construa junto com os instrutores, linha por linha
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 15px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">4️⃣ Desafio Independente:</strong> Resolva problemas sozinho e teste suas habilidades
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 0; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">5️⃣ Projeto Final:</strong> Crie algo único para seu portfólio
+                    </p>
+                </div>
+            </div>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Cada bootcamp na DIO é estruturado em <strong>módulos progressivos</strong>. Você começa pelos fundamentos e gradualmente avança para conceitos mais complexos. Há checkpoints, quizzes e desafios de código para garantir que você está realmente aprendendo.
+            </p>
+
+            <div style="background: #f0fdf4; padding: 20px; border-left: 5px solid #22c55e; margin: 25px 0; border-radius: 5px;">
+                <p style="margin: 0; font-size: 16px; line-height: 1.8; color: #065f46;">
+                    <strong>💡 Dica de Ouro:</strong> Não pule etapas! A tentação de avançar rápido é grande, mas cada módulo prepara você para o próximo. A consistência vence a velocidade.
+                </p>
+            </div>
+        </div>
+
+        <!-- Página 5: As Trilhas da Tecnologia -->
+        <div style="page-break-after: always; padding: 40px 20px;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <div style="font-size: 64px; margin-bottom: 15px;">🗺️</div>
+                <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
+                    Escolhendo Sua Trilha Tech
+                </h2>
+            </div>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Uma das decisões mais importantes na sua jornada tech é escolher a trilha certa. Não existe trilha "melhor" — existe a trilha certa <strong>para você</strong>, baseada em seus interesses, objetivos e perfil.
+            </p>
+
+            <div style="background: #fff7ed; padding: 20px; border-radius: 10px; margin: 25px 0;">
+                <h3 style="color: #ea580c; margin-top: 0; font-size: 18px;">🎨 Front-End: Para Quem Ama Criar Experiências Visuais</h3>
+                <p style="font-size: 15px; margin: 10px 0; line-height: 1.7;">
+                    Se você gosta de design, UX/UI e ver resultados visuais imediatos, o front-end é seu lugar. Você transforma ideias em interfaces que milhões de pessoas usam.
+                </p>
+            </div>
+
+            <div style="background: #ecfeff; padding: 20px; border-radius: 10px; margin: 25px 0;">
+                <h3 style="color: #0891b2; margin-top: 0; font-size: 18px;">⚙️ Back-End: Para Quem Gosta de Lógica e Sistemas</h3>
+                <p style="font-size: 15px; margin: 10px 0; line-height: 1.7;">
+                    Se você é fascinado por como as coisas funcionam por trás das cortinas, adora resolver problemas complexos e construir sistemas robustos, back-end é sua área.
+                </p>
+            </div>
+
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 10px; margin: 25px 0;">
+                <h3 style="color: #0284c7; margin-top: 0; font-size: 18px;">☁️ Cloud: Para Quem Quer Dominar a Infraestrutura Moderna</h3>
+                <p style="font-size: 15px; margin: 10px 0; line-height: 1.7;">
+                    Se você se interessa por escalabilidade, servidores, segurança e arquitetura de sistemas distribuídos, cloud computing é o futuro.
+                </p>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white; margin: 25px 0;">
+                <p style="font-size: 16px; margin: 0; text-align: center; font-weight: bold; line-height: 1.6;">
+                    "Não escolha pelo salário. Escolha pelo que faz seus olhos brilharem. A paixão pelo trabalho leva ao sucesso, não o contrário."
+                </p>
+            </div>
+        </div>
+
+        <!-- Página 6: O Valor das Soft Skills -->
+        <div style="page-break-after: always; padding: 40px 20px;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <div style="font-size: 64px; margin-bottom: 15px;">🤝</div>
+                <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
+                    Além do Código: Soft Skills Que Fazem a Diferença
+                </h2>
+            </div>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Aqui está um segredo que poucas pessoas contam: <strong>saber programar não é suficiente</strong>. As empresas contratam pessoas que sabem programar E se comunicar bem, trabalhar em equipe e resolver problemas de forma criativa.
+            </p>
+
+            <div style="background: #f0fdf4; padding: 20px; border-left: 5px solid #22c55e; margin: 25px 0; border-radius: 5px;">
+                <h3 style="color: #16a34a; margin-top: 0; font-size: 20px;">🌟 Soft Skills Essenciais para Tech:</h3>
+                <ul style="margin: 10px 0; padding-left: 25px; line-height: 1.8;">
+                    <li style="margin: 10px 0;"><strong>Comunicação Clara:</strong> Explique soluções técnicas para pessoas não-técnicas</li>
+                    <li style="margin: 10px 0;"><strong>Trabalho em Equipe:</strong> 99% dos projetos tech envolvem colaboração</li>
+                    <li style="margin: 10px 0;"><strong>Resolução de Problemas:</strong> A capacidade de quebrar problemas complexos em partes menores</li>
+                    <li style="margin: 10px 0;"><strong>Adaptabilidade:</strong> A tecnologia muda rápido; você precisa gostar de aprender sempre</li>
+                    <li style="margin: 10px 0;"><strong>Gestão de Tempo:</strong> Deadlines e prioridades fazem parte do dia a dia</li>
+                </ul>
+            </div>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                A boa notícia? Os bootcamps da DIO não ensinam apenas hard skills (código). Eles também desenvolvem suas soft skills através de projetos em grupo, apresentações, code reviews e interação com mentores e recrutadores.
+            </p>
+
+            <div style="background: #fef3c7; padding: 20px; border-left: 5px solid #f59e0b; margin: 25px 0; border-radius: 5px;">
+                <p style="margin: 0; font-size: 16px; line-height: 1.8; color: #78350f;">
+                    <strong>🎯 Estatística Real:</strong> 85% das contratações falham por falta de soft skills, não de conhecimento técnico. Empresas sabem que podem ensinar tecnologia, mas não podem ensinar postura profissional.
+                </p>
+            </div>
+        </div>
+
+        <!-- Página 7: Como Se Destacar nos Bootcamps -->
+        <div style="page-break-after: always; padding: 40px 20px;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <div style="font-size: 64px; margin-bottom: 15px;">⭐</div>
+                <h2 style="color: #8b5cf6; font-size: 32px; margin: 15px 0;">
+                    Como Se Destacar e Maximizar Suas Chances
+                </h2>
+            </div>
+
+            <p style="font-size: 16px; margin-bottom: 18px; line-height: 1.8; text-align: justify;">
+                Milhares de pessoas fazem bootcamps, mas apenas uma fração consegue oportunidades incríveis rapidamente. O que elas fazem diferente? Seguem estratégias simples, mas poderosas.
+            </p>
+
+            <div style="background: #ede9fe; padding: 25px; border-radius: 12px; margin: 25px 0;">
+                <h3 style="color: #6d28d9; margin-top: 0; font-size: 20px;">🚀 7 Estratégias de Quem se Destaca:</h3>
+                
+                <div style="margin: 20px 0;">
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">1. Consistência > Intensidade:</strong> Melhor estudar 1h por dia durante 3 meses do que 8h em um fim de semana
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">2. Documente sua jornada:</strong> Escreva sobre o que aprende no LinkedIn, crie um blog ou faça vídeos
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">3. Vá além dos exercícios:</strong> Pegue os projetos e adicione funcionalidades extras
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">4. Contribua na comunidade:</strong> Ajude outros estudantes, responda dúvidas nos fóruns
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">5. Construa um portfólio público:</strong> GitHub ativo é seu currículo visual
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 12px; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">6. Networking autêntico:</strong> Conecte-se com colegas, mentores e profissionais da área
+                    </p>
+
+                    <p style="font-size: 15px; margin-bottom: 0; line-height: 1.7;">
+                        <strong style="color: #8b5cf6;">7. Finalize o que começa:</strong> Certificados completos valem mais que 10 incompletos
+                    </p>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 12px; color: white; margin: 25px 0;">
+                <p style="font-size: 17px; margin: 0; text-align: center; font-weight: bold; line-height: 1.6;">
+                    "Recrutadores procuram GitHub ativos, presença online autêntica e projetos reais. Seu código fala mais alto que seu currículo."
+                </p>
+            </div>
         </div>
 
         <!-- Introdução Técnica -->
@@ -222,28 +413,26 @@ function createPDFContent() {
                 📖 Bem-vindo à sua Jornada Tech!
             </h2>
             <p style="font-size: 16px; margin-bottom: 15px;">
-                Você já imaginou poder escolher o caminho da sua carreira na tecnologia com total clareza e segurança?
+                Agora que você entende o poder dos bootcamps e como aproveitá-los ao máximo, é hora de conhecer suas opções!
             </p>
             <p style="font-size: 16px; margin-bottom: 15px;">
-                Este e-book foi criado para ser o seu mapa nessa jornada. Aqui, você vai encontrar as principais <strong>trilhas de aprendizado</strong> na tecnologia, cada uma com bootcamps cuidadosamente selecionados da <strong>DIO (Digital Innovation One)</strong>, uma das maiores plataformas de educação tech do Brasil.
-            </p>
-            <p style="font-size: 16px; margin-bottom: 15px;">
-                Meu objetivo é simples: <strong>ajudar você a transformar curiosidade em carreira</strong>.
-            </p>
-            <p style="font-size: 16px; margin-bottom: 15px;">
-                Seja você iniciante ou alguém que já está na área e busca se especializar, este guia vai te mostrar o caminho mais direto para o sucesso.
+                Nas páginas seguintes, você encontrará <strong>6 trilhas completas</strong> com bootcamps gratuitos e de alta qualidade. Cada link já vem com meu código de indicação para facilitar sua matrícula.
             </p>
 
             <div style="background: #f0fdf4; padding: 20px; border-left: 5px solid #22c55e; margin: 30px 0; border-radius: 5px;">
                 <h3 style="color: #16a34a; margin-top: 0;">🎯 O que você vai encontrar:</h3>
                 <ul style="margin: 10px 0; padding-left: 25px;">
                     <li style="margin: 8px 0;">✅ <strong>6 trilhas completas</strong> de tecnologia</li>
-                    <li style="margin: 8px 0;">✅ <strong>Mais de 12 bootcamps</strong> selecionados</li>
+                    <li style="margin: 8px 0;">✅ <strong>14 bootcamps gratuitos</strong> selecionados</li>
                     <li style="margin: 8px 0;">✅ <strong>Links diretos</strong> com código de indicação</li>
-                    <li style="margin: 8px 0;">✅ <strong>Dicas práticas</strong> para cada trilha</li>
+                    <li style="margin: 8px 0;">✅ <strong>Descrições detalhadas</strong> de cada programa</li>
                     <li style="margin: 8px 0;">✅ <strong>Caminho claro</strong> do zero ao profissional</li>
                 </ul>
             </div>
+
+            <p style="font-size: 16px; margin-bottom: 15px;">
+                <strong>Lembre-se:</strong> Você não precisa fazer todos ao mesmo tempo. Escolha uma trilha, comprometa-se com ela e complete com excelência. Seu futuro na tech começa agora! 🚀
+            </p>
         </div>
 
         ${generateAllTrilhasContent()}
